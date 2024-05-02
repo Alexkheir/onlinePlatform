@@ -1,21 +1,14 @@
 <?php
-
     include "db.php";
 
-
-
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>signup</title>
-</head>
-<body>
-
-<style>
+    <title>Login</title>
+    <style>
     body {
         background-color: #e6ecf0; /* Soft blue background for the whole page */
         font-family: Arial, sans-serif; /* Modern, readable font */
@@ -63,19 +56,21 @@
     }
 
 </style>
+    
     <div class="contain_form">
-        <form action="BE/signupDB.php" method="post">
+        <form action="login.php" method="post">
             <label for="username">Username</label>
             <input type="text" name="username" id="username">
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email">
             <label for="password">Password</label>
             <input type="password" name="password" id="password">
-            <button type="submit">signUp</button>
-            <a href="login.php">Already a user ?Click here</a>
+            <button type="submit">Login</button>
+            
         </form>
     </div>
 
+
+</head>
+<body>
     
 </body>
 </html>
