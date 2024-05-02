@@ -64,7 +64,7 @@
 
 </style>
     <div class="contain_form">
-        <form action="login.php" method="post">
+        <form action="BE/signupDB.php" method="post">
             <label for="username">Username</label>
             <input type="text" name="username" id="username">
             <label for="email">Email</label>
