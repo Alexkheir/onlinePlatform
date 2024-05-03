@@ -1,7 +1,4 @@
-<?php
-    include "db.php";
 
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -58,7 +55,7 @@
 </style>
     
     <div class="contain_form">
-        <form action="login.php" method="post">
+        <form action="../BE/loginDB.php" method="post">
             <label for="username">Username</label>
             <input type="text" name="username" id="username">
             <label for="password">Password</label>

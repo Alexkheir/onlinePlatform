@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($result->rowCount() > 0) {
             $user = $result->fetch(PDO::FETCH_ASSOC);
             if (password_verify($pass, $user['password'])) {
-                echo "Login successful!";
+                header("location: ../FE/home.php");
             } else {
                 echo "Error: Incorrect password!";
             }

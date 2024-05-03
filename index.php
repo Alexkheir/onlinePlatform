@@ -1,10 +1,4 @@
-<?php
 
-    include "db.php";
-
-
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -72,7 +66,7 @@
             <label for="password">Password</label>
             <input type="password" name="password" id="password">
             <button type="submit">signUp</button>
-            <a href="login.php">Already a user ?Click here</a>
+            <a href="./FE/login.php">Already a user ?Click here</a>
         </form>
     </div>
 
