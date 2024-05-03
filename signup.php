@@ -2,7 +2,7 @@
 
     include "db.php";
 
-
+    echo "hey";
 
 ?>
 
